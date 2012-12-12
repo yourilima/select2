@@ -1415,10 +1415,10 @@ the specific language governing permissions and limitations under the Apache Lic
             var container = $("<div></div>", {
                 "class": "select2-container"
             }).html([
-                "    <a href='javascript:void(0)' onclick='return false;' class='select2-choice'>",
+                "    <span style='cursor:pointer' onclick='return false;' class='select2-choice'>",
                 "   <span></span><abbr class='select2-search-choice-close' style='display:none;'></abbr>",
                 "   <div><b></b></div>" ,
-                "</a>",
+                "</span>",
                 "    <div class='select2-drop select2-offscreen'>" ,
                 "   <div class='select2-search'>" ,
                 "       <input type='text' autocomplete='off' class='select2-input'/>" ,
